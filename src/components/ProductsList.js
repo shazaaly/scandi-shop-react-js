@@ -13,11 +13,8 @@ export default function ProductsList() {
     <div className={classes.productsContainer}>
       {products.map((product) => (
         <ProductItem
-          id={product.id}
           key={product.id}
-          title={product.title}
-          price={product.price}
-          src={product.src}
+          product={product}
         />
       ))}
     </div>
