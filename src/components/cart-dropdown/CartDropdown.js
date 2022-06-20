@@ -13,9 +13,9 @@ export default function CartDropdown() {
       <div className={classes.cartItems}>
 
         <ul>
-          { cartItems.map((cartItem) => (
+          <li> {cartItems.map((cartItem) => (
             <CartItem key={cartItem.id} cartItem={cartItem} />))}
-
+          </li>
 
         </ul>
 
