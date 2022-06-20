@@ -1,0 +1,60 @@
+
+
+.headerMenus{
+  width: 60%;
+}
+.cartIcon {
+  /* Vector */
+
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 5.84%;
+  bottom: 29.11%;
+}
+.cartImage {
+  float: left;
+
+}
+.currency{
+  float: left;
+
+
+}
+
+.bagIcon{
+  float: left;
+
+}
+
+.currency {
+  /* Label */
+
+  width: 86px;
+  height: 29px;
+  margin: 1rem 1rem;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 160%;
+  /* identical to box height, or 29px */
+
+  text-align: right;
+
+  color: #1d1f22;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.navbar {
+overflow: hidden;
+  /* display: flex;
+  flex-wrap: wrap; */
+ 
+
+}

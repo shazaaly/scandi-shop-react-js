@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Apollo Running Short",
+    "price": "20.00 $",
+    "src": "../images/plouver1.png"
+  },
+  {
+    "id": 2,
+    "title": "Apollo Running Short",
+    "price": "20.00 $",
+    "src": "../images/plouver2.png"
+  },
+  {
+    "id": 3,
+    "title": "Apollo Plouver ",
+    "price": "52.00 $",
+    "src": "../images/runner.png"
+  },
+  {
+    "id": 4,
+    "title": " Running Short",
+    "price": "100.00 $",
+    "src": "../images/shirt.png"
+  },
+  {
+    "id": 5,
+    "title": "Apollo Skirt Short",
+    "price": "230.00 $",
+    "src": "../images/runner.png"
+  },
+  {
+    "id": 6,
+    "title": "Apollo neck shirt",
+    "price": "110.58 $",
+    "src": "../images/runner.png"
+  }
+]

@@ -1,0 +1,32 @@
+.item {
+  /* Auto layout */
+  height: 200px;
+  margin: 80px ;
+
+ 
+
+}
+
+.productImage{
+
+    height: 200px;
+    width: 200px;
+
+    
+    
+}
+
+.imageContainer {
+  position: relative;
+  overflow: hidden; 
+}
+
+.cartButton{
+  transition: all 1s ease-in-out;
+  transform: translate(100%, 100%); 
+}
+
+.imageContainer:hover .cartButton{
+
+  transform: translate(0, 0); 
+}
