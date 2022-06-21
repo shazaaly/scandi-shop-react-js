@@ -6,13 +6,13 @@ export default function Navigation() {
   return (
     <Fragment>
       <div className={classes.linksContainer}>
-        <Link  className={classes.navLink} to="/women">
+        <Link  className={classes.navLink} to="women">
           Women
         </Link>
-        <Link className={classes.navLink} to="/men">
+        <Link className={classes.navLink} to="men">
           Men
         </Link>
-        <Link className={classes.navLink} to="/kids">
+        <Link className={classes.navLink} to="kids">
           Kids
         </Link>
       </div>

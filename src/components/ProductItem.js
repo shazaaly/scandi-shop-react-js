@@ -3,17 +3,22 @@ import { Link } from "react-router-dom";
 import classes from "../components/ProductItem.module.css";
 import { CartContext } from "../contexts/cart.context";
 
-export default function ProductItem({product}) {
+export default function ProductItem({ product }) {
+
 
   const { addItemToCart } = useContext(CartContext)
-  const {id, title, price,src } = product
+  const { id, title, price, src } = product
   const addProductToCart = () => addItemToCart(product);
 
 
+
   return (
+
     <Fragment>
+
       <div className={classes.productCardContainer}>
-        <Link to={`${title}/${id}`}>
+
+        <Link to={`shop/${id}`}>
           <div className={classes.item} key={id}>
             <div className={classes.imageContainer}>
               <img
